@@ -28,6 +28,19 @@
 - (void)testExample {
     // This is an example of a functional test case.
     XCTAssert(YES, @"Pass");
+    
+}
+
+- (void)testExample1 {
+    // This is an example of a functional test case.
+    XCTAssertNotNil(@"",@"must be != nil");
+    
+}
+
+- (void)testExample2 {
+    // This is an example of a functional test case.
+    XCTAssertNotNil(nil,@"must be != nil");
+    
 }
 
 - (void)testPerformanceExample {
